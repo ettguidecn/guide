@@ -1,7 +1,6 @@
 module.exports = {
   title: 'Hello vuepress',
   description: ' ',
-  lastUpdated: 'Last Updated',
   base: '/docs/',
   serviceWorker: true,
   locales: {
@@ -26,6 +25,7 @@ module.exports = {
     ],
     locales: {
       '/': {
+        lastUpdated: '上次更新',
         selectText: '选择语言',
         label: '简中',
         serviceWorker: {
@@ -57,6 +57,7 @@ module.exports = {
         }
       },
       '/zh/': {
+        lastUpdated: '上次更新',
         selectText: '選擇語言',
         label: '繁中',
         serviceWorker: {
