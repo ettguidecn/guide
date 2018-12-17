@@ -51,6 +51,7 @@ module.exports = {
                 'dlpack',
                 'noteskin',
                 'ratechange',
+                'judgeswitch',
                 'multiplay'
               ]
             }
