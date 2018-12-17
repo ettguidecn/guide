@@ -4,6 +4,7 @@
 2. [stepmania群网盘](https://etternaonline.com/packs)
 3. [stepmania 群共享网盘](https://pan.baidu.com/s/1mh5PPCc)
 4.  [ffr论坛](http://www.flashflashrevolution.com/vbz/forumdisplay.php?f=21)
+5. [(推荐)用群里国内镜像接口写的网站](https://packdl.now.sh)
 
 ## 歌曲包存放位置以及注意事项(包括osu歌曲)
 

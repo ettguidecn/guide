@@ -50,6 +50,7 @@ module.exports = {
                 'install',
                 'dlpack',
                 'noteskin',
+                'ratechange',
                 'multiplay'
               ]
             }
