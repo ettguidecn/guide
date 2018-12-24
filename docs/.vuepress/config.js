@@ -49,6 +49,7 @@ module.exports = {
                 '',
                 'install',
                 'dlpack',
+                'keyconfig',
                 'basicoperations',
                 'noteskin',
                 'ratechange',
