@@ -20,9 +20,6 @@ module.exports = {
     displayAllHeaders: true,
     repo: 'ettguidecn/docs',
     repoLabel: 'GitHub',
-    nav: [
-      { text: "教程", link: '/guide/' }
-    ],
     locales: {
       '/': {
         lastUpdated: '上次更新',
@@ -34,31 +31,27 @@ module.exports = {
             buttonText: '刷新'
           }
         },
-        sidebar: {
-          '/guide/': [
-            {
-              title: '教程',
-              collapsable: false,
-              serviceWorker: {
-                updatePopup: {
-                  message: "发现新内容可用",
-                  buttonText: "刷新"
-                }
-              },
-              children: [
-                '',
-                'install',
-                'dlpack',
-                'keyconfig',
-                'basicoperations',
-                'noteskin',
-                'ratechange',
-                'judgeswitch',
-                'multiplay'
-              ]
+        sidebar:  [{
+          title: '教程',
+          collapsable: false,
+          serviceWorker: {
+            updatePopup: {
+              message: "发现新内容可用",
+              buttonText: "刷新"
             }
+          },
+          children: [
+            '',
+            '/install',
+            '/dlpack',
+            '/keyconfig',
+            '/basicoperations',
+            '/noteskin',
+            '/ratechange',
+            '/judgeswitch',
+            '/multiplay'
           ]
-        }
+        }]
       },
       '/zh/': {
         lastUpdated: '上次更新',
@@ -69,7 +62,21 @@ module.exports = {
             message: '發現新內容可用.',
             buttonText: '刷新'
           }
-        },
+        }, 
+        sidebar:  [{
+          title: '教程',
+          collapsable: false,
+          serviceWorker: {
+            updatePopup: {
+              message: "发现新内容可用",
+              buttonText: "刷新"
+            }
+          },
+          children: [
+            '/zh/',
+            '/zh/test'
+          ]
+        }]
       }
     }
   },

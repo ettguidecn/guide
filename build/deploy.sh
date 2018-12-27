@@ -10,5 +10,4 @@ cd docs/.vuepress/dist
 git init
 git add -A
 git commit -m 'deploy'
-git pull git@github.com:ettguidecn/docs.git gh-pages --allow-unrelated-histories
-git push -u git@github.com:ettguidecn/docs.git master:gh-pages
+git push -f git@github.com:ettguidecn/docs.git master:gh-pages
