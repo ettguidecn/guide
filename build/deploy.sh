@@ -10,4 +10,4 @@ cd docs/.vuepress/dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:ettguidecn/docs.git master:gh-pages
+git push -f git@github.com:ettguidecn/guide.git master:gh-pages

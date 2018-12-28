@@ -64,7 +64,7 @@ const pwaText = (msg, btnText) => {
 module.exports = {
   title: 'Hello vuepress',
   description: ' ',
-  base: '/docs/',
+  base: '/guide/',
   serviceWorker: true,
   locales: {
     '/': {
@@ -81,7 +81,7 @@ module.exports = {
   },
   themeConfig: {
     displayAllHeaders: true,
-    repo: 'ettguidecn/docs',
+    repo: 'ettguidecn/guide',
     repoLabel: 'GitHub',
     locales: {
       '/': {
