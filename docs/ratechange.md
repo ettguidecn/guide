@@ -21,7 +21,7 @@
 具体步骤:
 打开 游戏目录/Themes/_fallback/Scripts/10 WifeSundries.lua
 直接滚动条拖到最后，找到最后一个函数:
-<img :src="$withBase('/changerate.png')" alt="changerate">
+<img :src="$withBase('/zhs/changerate.png')" alt="changerate">
 
 其中，标注着rate + 0.1/0.05的为递增，rate - 0.1/0.05的为递减。举个例子，不过你想把递减0.05改成0.01，找到所有rate - 0.05的，把所有的0.05改成0.1即可。
 

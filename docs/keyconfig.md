@@ -4,7 +4,7 @@
 
 ## 4k键位
 
-<img :src="$withBase('/4k.png')" alt="4k">
+<img :src="$withBase('/zhs/4k.png')" alt="4k">
 由于像osu、o2jam这类的MUG键位设定都是默认DFJK为1234号轨道的，但是在etterna或者stepmania上，键位设定顺序要改成DKJF对应1432号轨道。
 
 ## 修改选择跟效果上/下
