@@ -1,4 +1,4 @@
-# 基本操作
+# 基本操作/功能介绍
 
 Etterna版本一个亮眼的地方就是其丰富的功能，下面简单介绍下在各个界面的快捷操作。
 
@@ -16,8 +16,6 @@ Etterna版本一个亮眼的地方就是其丰富的功能，下面简单介绍�
 
 <img :src="$withBase('/zhs/ScreenSelectMusic-LeftArea.png')" alt="Left Area">
 
-+ 左键单击玩家设置（Player Options）：进入歌曲设置界面
-+ 左键单击开启预览（Toggle Preview）：预览谱面，再次点击关闭预览
 + 左键单击下图的各项标签：切换到该标签页面，各个标签的详细功能请参阅[标签明细](#标签明细)
 <img :src="$withBase('/zhs/ScreenSelectMusic-Tabs.png')" alt="Tabs">
 
@@ -28,9 +26,11 @@ Etterna版本一个亮眼的地方就是其丰富的功能，下面简单介绍�
 
 ### 键盘操作
 
-* F2：重新读取主题和材质
-* 按住F3：打开除错菜单。涉及高级操作，详情请参阅[除错清单明细](#除错清单明细)
-* F12：打开帮助菜单，按任意键关闭。这个界面包含了绝大部分的键盘操作，如下图：
++ 左&lt;Left&gt;/右&lt;Right&gt;：切换选中的歌曲，选单左&lt;Menu Left&gt;/选单右&lt;MenuRight&gt;亦可
++ 上&lt;Up&gt;上&lt;Up&gt;/下&lt;Down&gt;下&lt;Down&gt;：切换难度，选单上&lt;Menu Up&gt;选单上&lt;Menu Up&gt;/选单下&lt;Menu Down&gt;选单下&lt;Menu Down&gt;亦可
++ F2：重新读取主题和材质
++ 按住F3：打开除错菜单。涉及高级操作，详情请参阅[除错清单明细](#除错清单明细)
++ F12：打开帮助菜单，按任意键关闭。这个界面包含了绝大部分的键盘操作，如下图：
 <img :src="$withBase('/zhs/ScreenSelectMusic-HelpMenu.png')" alt="Help Menu">
 
 * 数字键1-0（非小键盘）：切换到对应的标签页面，1键对应General，2键对应MSD，以此类推。各个标签的详细功能请参阅[标签明细](#标签明细)
@@ -53,9 +53,20 @@ Etterna版本一个亮眼的地方就是其丰富的功能，下面简单介绍�
 * F7：开启节拍器
 * 重新开始&lt;Restart&gt;：重新开始当前歌曲，默认是`
 
+游玩界面基本所有物件的开关都在玩家设置中，通过界面设置可以调整各物件的位置和大小。在调整之前可以先了解一下每个物件的功能，看看有哪些是需要的。
+
+<img :src="$withBase('/zhs/ScreenGameplay.png')" alt="Gameplay">
+
+看成绩回放的时候会有相关的按钮。
+
+<img :src="$withBase('/zhs/ScreenGameplay-ReplayButtons.png')" alt="Replay Buttons">
+
 ## 标签明细
 
 * General：歌曲和谱面的基础信息。显示谱面键数、种类、歌曲标题图、作者CDTitle、歌曲时长、难度数、BPM、个人最好成绩等基本信息
+	* 左键单击玩家设置（Player Options）：进入歌曲设置界面
+	* 左键单击开启预览（Toggle Preview）：预览谱面，再次点击关闭预览。鼠标点击上方进度条可以调整预览的位置
+	* SPACE：预览谱面，再次点击关闭预览。鼠标点击上方进度条可以调整预览的位置（对某些音乐文件有时轴错位），鼠标右键点击任意位置暂停/继续预览
 <img :src="$withBase('/zhs/ScreenSelectMusic-General.png')" alt="General">
 
 + MSD：谱面难度信息。七项评分标准大致为大乱（很快的单键/Stream）、双键流及双切（Jumpstream）、三键流及三切（Handstream）、耐力（Stamina）、叠键速度（JackSpeed）、混合双切及拍砖（Chordjack）、长叠键及爆发类（Technical）。以上为雨幕幕个人理解，评分标准由固定算法计算，难免有误差，不用太过遵循
