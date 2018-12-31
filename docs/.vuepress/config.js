@@ -39,6 +39,7 @@ const chsRouter = [
   '/dlpack',
   '/keyconfig',
   '/basicoperations',
+  '/settings',
   '/noteskin',
   '/ratechange',
   '/judgeswitch',
