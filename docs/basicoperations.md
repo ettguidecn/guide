@@ -57,9 +57,26 @@ Etterna版本一个亮眼的地方就是其丰富的功能，下面简单介绍�
 
 <img :src="$withBase('/zhs/ScreenGameplay.png')" alt="Gameplay">
 
-看成绩回放的时候会有相关的按钮。
++ 血条（Lifebar）：显示当前生命值，初始只有一半，判定打准会增加/保持生命值，而打歪则会扣除。生命值空了默认失败并立即结束，可以更改设置
++ 完整进度条（Full Progress Bar）：显示歌曲进度，同时可以看到标题和谱面时长
++ 排行榜（Leaderboard）：显示歌曲排名，如果之前看过Online的成绩则会显示Online的
++ 判定区（Notefield）：StepMania的基础，默认当图案完全重合时为0.00ms
++ 判定计数器（Judge Counter）：显示当前判定情况，不过并不会显示当前中了几颗地雷
++ 判定文字（Judge Text）：显示当前按键的判定，该图片位于`Assets/Judgements/`下，可按需求在[Etterna Online](https://etternaonline.com/judgements)找自己想要的然后替换
++ 简易进度条（Mini Progress Bar）：显示歌曲进度，区别是这个进度条非常的短
++ 连击数（Combo Text）：显示当前连击，Good/Bad/Miss会断连
++ NPS窗口（NPS Display）：显示当前NPS（每秒按键数/Note Per Second），同时显示峰值（Peak）
++ 目标计数器（Target Tracker）：显示当前分数与目标分数（括号内为百分比显示）的差，会根据正负改变颜色
++ 判定误差线（Error Bar）：显示当前判定与0.00ms（正中位置）的差，可以看是打早了还是打晚了
++ 判定百分比（Display Percent）：显示当前分数的百分比
++ 玩家信息（Player Info）：显示玩家头像，当前判定等级，计分模式，当前谱面MSD和难度，以及玩家设置
++ BPM（每分钟节拍数/Beat Per Minute）：显示当前BPM
++ 播放速率（Rate）：显示当前播放速率
+
+看成绩回放的时候会有相关的按钮，点击暂停（Pause）暂停，之后可以用快进（Fast Forward）和倒带（Rewind）调整位置<b>【提醒：该功能目前不完善，无法准确使用】</b>
 
 <img :src="$withBase('/zhs/ScreenGameplay-ReplayButtons.png')" alt="Replay Buttons">
+
 
 ## 标签明细
 
