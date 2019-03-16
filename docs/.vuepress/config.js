@@ -5,6 +5,27 @@ const navLink = [
     link: 'https://github.com/etternagame/etterna/releases'
   },
   {
+    text: '皮肤相关下载',
+    items: [
+      {
+        text: 'noteskin(note皮肤)',
+        link: 'https://etternaonline.com/noteskins'
+      },
+      {
+        text: 'judgement(判定图片)',
+        link: 'https://etternaonline.com/judgements'
+      },
+      {
+        text: 'toasty(彩蛋)',
+        link: 'https://etternaonline.com/toasties'
+      },
+      {
+        text: 'test',
+        link: '/theme'
+      }
+    ]
+  },
+  {
     text: '曲包下载',
     items: [
       {
@@ -16,7 +37,7 @@ const navLink = [
         link: 'http://stepmaniaonline.net/index.php?page=downloads'
       },
       {
-        text: 'ett官网',
+        text: 'etterna官网',
         link: 'https://etternaonline.com/packs'
       },
       {
@@ -26,6 +47,10 @@ const navLink = [
       {
         text: '百度盘',
         link: 'https://pan.baidu.com/s/1mh5PPCc'
+      },
+      {
+        text: 'etterna论坛',
+        link: 'https://forums.etternaonline.com/c/posts-relating-to-charting/for-releasing-complete-packs'
       }
     ]
   }
@@ -36,7 +61,9 @@ const navLink = [
 const chsRouter = [
   '',
   '/install',
+  '/reglog',
   '/dlpack',
+  '/theme',
   '/keyconfig',
   '/basicoperations',
   '/settings',
@@ -48,8 +75,8 @@ const chsRouter = [
 
 // 繁體中文路由
 const chtRouter = [
-  '/zh/',
-  '/zh/test'
+  '/zh-hant/',
+  '/zh-hant/test'
 ];
 
 // 多语言刷新文字提示
@@ -69,13 +96,13 @@ module.exports = {
   serviceWorker: true,
   locales: {
     '/': {
-      lang: 'zh-CN',
+      lang: 'zh-hans',
       title: 'etterna教程',
       description: '',
       
     },
-    '/zh/': {
-      lang: 'zh-TW',
+    '/zh-hant/': {
+      lang: 'zh-hant',
       title: 'etterna教程',
       description: ''
     }
@@ -99,7 +126,7 @@ module.exports = {
           children: chsRouter
         }]
       },
-      '/zh/': {
+      '/zh-hant/': {
         lastUpdated: '上次更新',
         selectText: '選擇語言',
         label: '繁中',
