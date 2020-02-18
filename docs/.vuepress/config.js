@@ -78,27 +78,10 @@ const chtRouter = [
   '/zh-hant/',
 ];
 
-// 多语言刷新文字提示
-const pwaText = (msg, btnText) => {
-  return {
-    message: msg,
-    buttonText: btnText
-  }
-}
-
 module.exports = {
   title: '',
   description: ' ',
   theme: 'reco',
-  plugins: {
-    '@vuepress/pwa': {
-      serviceWorker: true,
-      updatePopup: {
-        '/': pwaText('发现新内容可用.', '刷新'),
-        '/zh-hant/': pwaText('发现新内容可用.', '刷新')
-      }
-    }
-  },
   base: '/guide/',
   locales: {
     '/': {
@@ -137,7 +120,6 @@ module.exports = {
         sidebar:  [{
           title: '教程',
           collapsable: false,
-          serviceWorker: pwaText("发现新内容可用", "刷新"),
           children: chtRouter
         }]
       }
