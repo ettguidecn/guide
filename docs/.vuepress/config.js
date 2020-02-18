@@ -76,24 +76,30 @@ const chsRouter = [
 // 繁體中文路由
 const chtRouter = [
   '/zh-hant/',
-  '/zh-hant/test'
 ];
 
 // 多语言刷新文字提示
 const pwaText = (msg, btnText) => {
   return {
-    updatePopup: {
-      message: msg,
-      buttonText: btnText
-    }
+    message: msg,
+    buttonText: btnText
   }
 }
 
 module.exports = {
-  title: 'Hello vuepress',
+  title: '',
   description: ' ',
+  theme: 'reco',
+  plugins: {
+    '@vuepress/pwa': {
+      serviceWorker: true,
+      updatePopup: {
+        '/': pwaText('发现新内容可用.', '刷新'),
+        '/zh-hant/': pwaText('发现新内容可用.', '刷新')
+      }
+    }
+  },
   base: '/guide/',
-  serviceWorker: true,
   locales: {
     '/': {
       lang: 'zh-hans',
@@ -116,13 +122,11 @@ module.exports = {
         lastUpdated: '上次更新',
         selectText: '选择语言',
         label: '简中',
-        serviceWorker: pwaText('发现新内容可用.', '刷新'),
         nav: navLink,
         // 导航栏
         sidebar:  [{
           title: '教程',
           collapsable: false,
-          serviceWorker: pwaText('发现新内容可用.', '刷新'),
           children: chsRouter
         }]
       },
@@ -130,7 +134,6 @@ module.exports = {
         lastUpdated: '上次更新',
         selectText: '選擇語言',
         label: '繁中',
-        serviceWorker: pwaText("发现新内容可用", "刷新"),
         sidebar:  [{
           title: '教程',
           collapsable: false,
