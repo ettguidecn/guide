@@ -10,7 +10,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - run: yarn && rimraf docs/.vuepress/dist && yarn build
+    - run: yarn && yarn clean && yarn build
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.5.0
