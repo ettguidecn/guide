@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "671d238b09670c9390d50c308416e2b1"
+    "revision": "649823c5b8e733544033d67012423fe0"
   },
   {
     "url": "assets/css/0.styles.8dd35676.css",
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "revision": "0b4845cde5d4d5a94c379837f92e3fa7"
   },
   {
-    "url": "assets/js/5.a024f647.js",
-    "revision": "880393f8d1ce80bee5e13c5ef203fab9"
+    "url": "assets/js/5.2098d28e.js",
+    "revision": "0bbd83ac279aefee7903f764984cdb76"
   },
   {
     "url": "assets/js/6.42b26de0.js",
@@ -96,64 +96,64 @@ self.__precacheManifest = [
     "revision": "d12d0e8ae6ae44c79ee9e9a8b737df28"
   },
   {
-    "url": "assets/js/app.4e505341.js",
-    "revision": "18891fbb4cc661e7c58d48f3b7c06f61"
+    "url": "assets/js/app.081fe647.js",
+    "revision": "e8438966741159629fe732cabc7299ca"
   },
   {
     "url": "basicoperations.html",
-    "revision": "46e6f00e75a436f2ac847e8026c6ca2a"
+    "revision": "64562455247c06b7544ed14ea02748e2"
   },
   {
     "url": "dlpack.html",
-    "revision": "0eace17f0e2757f9bf4b64f937192da5"
+    "revision": "bf9819b798d9a9fcfc46aed0fed72247"
   },
   {
     "url": "index.html",
-    "revision": "bc37a1e698d34999c1cc152819b6ed31"
+    "revision": "e020b5411caf22d9536e332ca25178d4"
   },
   {
     "url": "install.html",
-    "revision": "420d1b8f91c30678d2338440d0baafd6"
+    "revision": "937278969a7546a0db7ed7b224b0df18"
   },
   {
     "url": "judgeswitch.html",
-    "revision": "b45103cb906c37c4f048f98d3e7101cb"
+    "revision": "ffe01c1aad3bba5704776d85122f88bd"
   },
   {
     "url": "keyconfig.html",
-    "revision": "d665a1ef75b4060328a93a099a957c72"
+    "revision": "5599dd93c75d1c5f33b4695c098fac8a"
   },
   {
     "url": "multiplay.html",
-    "revision": "20ad480af14dc322cca44850999c609f"
+    "revision": "afd0a59de2d6182242bb87161a36a8cc"
   },
   {
     "url": "noteskin.html",
-    "revision": "b832d6f52f1f53d600b32faa1941ce67"
+    "revision": "50f1c442d635aaa09c452ff8bd1fe3b5"
   },
   {
     "url": "ratechange.html",
-    "revision": "8a69f257de411345c4132dad1532507d"
+    "revision": "d222244a2cec3d8c131c9c8b0e371ebb"
   },
   {
     "url": "reglog.html",
-    "revision": "9009cc6b7821b59176bb0cf241eebc4d"
+    "revision": "bbc79089a15e329dfe534ccfcad1fd5e"
   },
   {
     "url": "settings.html",
-    "revision": "4f6d41a1643718b13506cbd3e21fdef4"
+    "revision": "043d490d596d5bf29289be707af5996d"
   },
   {
     "url": "theme.html",
-    "revision": "fb66fc2a0128d6a3d8c5fa672d6f3de5"
+    "revision": "ccc3e15c9f053bf2147dfc2610555939"
   },
   {
     "url": "zh-hant/index.html",
-    "revision": "a916377de437035869b44791571041b5"
+    "revision": "3123152ac7b53e6e0bef4b674bd91c81"
   },
   {
     "url": "zh-hant/test.html",
-    "revision": "8e5a7aa96cbf2dba78f4b43335ca9a63"
+    "revision": "9fd079f4cc4214238071b0ad341087cf"
   },
   {
     "url": "zhs/4k.png",
