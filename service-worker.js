@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "f4f48969db871932eb67faea63d42b07"
+    "revision": "0a1470c5990b4feb2d9659239150a5bc"
   },
   {
-    "url": "assets/css/0.styles.2c52293c.css",
-    "revision": "8cde49ff1398a5cc41a9c3dc0c828a50"
+    "url": "assets/css/0.styles.877b2248.css",
+    "revision": "1addf2ed78f35362cbb2ba74afd06b54"
   },
   {
     "url": "assets/img/home-bg.7b267d7c.jpg",
@@ -130,72 +130,72 @@ self.__precacheManifest = [
     "revision": "e2972323165b0694461049f874108a45"
   },
   {
-    "url": "assets/js/app.e93a4b6e.js",
-    "revision": "7feac9fdac1c97e20f6e8562eb1399ff"
+    "url": "assets/js/app.6905e8c4.js",
+    "revision": "ea10d8963c05a6ce4a6d908c8fdd0d9b"
   },
   {
     "url": "basicoperations.html",
-    "revision": "ea13ac1a9bd97a7f9b202018e94ebb8b"
+    "revision": "efb2b4afd60a4ac3e350ee7332e12c8f"
   },
   {
     "url": "categories/index.html",
-    "revision": "3deec6391735df46c197d423e06a3009"
+    "revision": "d45e1ea2df5bc38cec0d18b63a8bca41"
   },
   {
     "url": "dlpack.html",
-    "revision": "7223c06bdd3811f9e3581a9d67e374aa"
+    "revision": "5ce368ef243f100c973e63bbd51ca3ce"
   },
   {
     "url": "index.html",
-    "revision": "847db0e4a0f64a3a2cfee501d3c8f092"
+    "revision": "5d1359975822fd774fcc2b3164e98c63"
   },
   {
     "url": "install.html",
-    "revision": "d39908d560cba7680f024fcc1a2b7d13"
+    "revision": "07d2fa43fb99307fb30f30225e84d82e"
   },
   {
     "url": "judgeswitch.html",
-    "revision": "51a25ec4aa5f2e3af3efa01ee09f2b47"
+    "revision": "98da75ca9178c2f682fecfcf8c973e50"
   },
   {
     "url": "keyconfig.html",
-    "revision": "dd573f057ac22b72be0242773f2bff10"
+    "revision": "8aee12ccfe9b617fea1e963b6ec0952d"
   },
   {
     "url": "multiplay.html",
-    "revision": "69ab06d16a24769890ae1c80610436f9"
+    "revision": "83f2c1e7d324b0dfec1364bab4f121d3"
   },
   {
     "url": "noteskin.html",
-    "revision": "231a2bf93309d43bc2f29f35f75e1fdf"
+    "revision": "7b06b27b97e6bf3ad36a379417bca23a"
   },
   {
     "url": "ratechange.html",
-    "revision": "2dda17460239524034a3e5ee2eae1113"
+    "revision": "eb120549578e3ec4e8745a633176f047"
   },
   {
     "url": "reglog.html",
-    "revision": "0365e5c7e6ff9811f123c39747918acd"
+    "revision": "1079fefc63f20b63ef667b99b39353c3"
   },
   {
     "url": "settings.html",
-    "revision": "b2943e4076246df733b2d84bcec06345"
+    "revision": "f249c86b06c30e9a4f3544cca5bcd1d0"
   },
   {
     "url": "tag/index.html",
-    "revision": "7d9fa401928a96083143ef5a6cc892bd"
+    "revision": "150183ea3edb21c3ea1a5b4a279b38ec"
   },
   {
     "url": "theme.html",
-    "revision": "501bcfd05cf6b5ba5bc7470b01e30232"
+    "revision": "2ea677bcee9aadc874e212ecf8c7f193"
   },
   {
     "url": "timeline/index.html",
-    "revision": "ccdbdf06170a594eec5568283285ae3d"
+    "revision": "67e28e604379dc9069a45b69bd64743b"
   },
   {
     "url": "zh-hant/index.html",
-    "revision": "084048146a01e24c21b576b6bc27b56f"
+    "revision": "17d994ac31b8db5349f75a830ec5071f"
   },
   {
     "url": "zhs/4k.png",
