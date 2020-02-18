@@ -10,6 +10,7 @@
     "deploy": "bash build/deploy.sh"
   },
   "devDependencies": {
+    "rimraf": "^3.0.2",
     "vuepress": "^0.14.8"
   }
 }

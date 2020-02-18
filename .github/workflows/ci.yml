@@ -10,11 +10,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: install yarn
-      run: npm install yarn -g
-    - name: Build and Deploy
+    - run: yarn && rimraf docs/.vuepress/dist && yarn build
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2.5.0
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: build
-        BUILD_SCRIPT: yarn && bash ./build/deploy.sh
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: docs/.vuepress/dist

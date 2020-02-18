@@ -18,10 +18,6 @@ const navLink = [
       {
         text: 'toasty(彩蛋)',
         link: 'https://etternaonline.com/toasties'
-      },
-      {
-        text: 'test',
-        link: '/theme'
       }
     ]
   },
@@ -45,7 +41,11 @@ const navLink = [
         link: 'http://www.flashflashrevolution.com/vbz/forumdisplay.php?f=21'
       },
       {
-        text: '百度盘',
+        text: '(推荐)新百度盘(提取码yym4)',
+        link: 'https://pan.baidu.com/s/1nMdVZaCqXZw3cQxK1OrCGg'
+      },
+      {
+        text: '(旧)百度盘',
         link: 'https://pan.baidu.com/s/1mh5PPCc'
       },
       {

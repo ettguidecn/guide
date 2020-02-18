@@ -1,9 +1,9 @@
 # 歌曲包下载
 
 1. [stepmania online(战网)](http://stepmaniaonline.net/)
-2. [ett官网](https://etternaonline.com/packs)
-3. [(推荐)网盘 提取码yym4](https://pan.baidu.com/s/1nMdVZaCqXZw3cQxK1OrCGg)
-4. [(旧)网盘](https://pan.baidu.com/s/1mh5PPCc)
+2. [etterna官网](https://etternaonline.com/packs)
+3. [(推荐)新群网盘(提取码yym4)](https://pan.baidu.com/s/1nMdVZaCqXZw3cQxK1OrCGg)
+4. [(旧)群网盘](https://pan.baidu.com/s/1mh5PPCc)
 5.  [ffr论坛](http://www.flashflashrevolution.com/vbz/forumdisplay.php?f=21)
 
 ## 歌曲包存放位置以及注意事项(包括osu歌曲)
