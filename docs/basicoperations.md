@@ -73,7 +73,7 @@ Etterna版本一个亮眼的地方就是其丰富的功能，下面简单介绍�
 + BPM（每分钟节拍数/Beat Per Minute）：显示当前BPM
 + 播放速率（Rate）：显示当前播放速率
 
-看成绩回放的时候会有相关的按钮，点击暂停（Pause）暂停，之后可以用快进（Fast Forward）和倒带（Rewind）调整位置<b>【提醒：该功能目前不完善，无法准确使用】</b>
+看成绩回放的时候会有相关的按钮，点击暂停（Pause）暂停，之后可以用快进（Fast Forward）和倒带（Rewind）调整位置<b>【提醒：旧版本该功能不完善，无法准确使用，请使用0.67+的版本】</b>
 
 <img :src="$withBase('/zhs/ScreenGameplay-ReplayButtons.png')" alt="Replay Buttons">
 

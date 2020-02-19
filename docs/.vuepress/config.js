@@ -66,7 +66,10 @@ const chsRouter = [
   '/noteskin',
   '/ratechange',
   '/judgeswitch',
-  '/multiplay'
+  '/multiplay',
+  '/ssrnorm',
+  '/midgrade',
+  '/compile'
 ];
 
 // 繁體中文路由
