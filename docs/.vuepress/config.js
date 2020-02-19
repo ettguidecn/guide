@@ -25,10 +25,6 @@ const navLink = [
     text: '曲包下载',
     items: [
       {
-        text: '国内镜像',
-        link: 'https://packdl.now.sh'
-      },
-      {
         text: '战网',
         link: 'http://stepmaniaonline.net/index.php?page=downloads'
       },
@@ -70,7 +66,10 @@ const chsRouter = [
   '/noteskin',
   '/ratechange',
   '/judgeswitch',
-  '/multiplay'
+  '/multiplay',
+  '/ssrnorm',
+  '/midgrade',
+  '/compile'
 ];
 
 // 繁體中文路由
@@ -83,6 +82,7 @@ module.exports = {
   description: ' ',
   theme: 'reco',
   base: '/guide/',
+  plugins: ['@vuepress/last-updated'],
   locales: {
     '/': {
       lang: 'zh-hans',
@@ -97,7 +97,7 @@ module.exports = {
     }
   },
   themeConfig: {
-    displayAllHeaders: true,
+    displayAllHeaders: false,
     repo: 'ettguidecn/guide',
     repoLabel: 'GitHub',
     locales: {
