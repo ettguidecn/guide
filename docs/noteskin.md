@@ -7,7 +7,7 @@
 如果你是`4k`玩家，`noteskin`默认放到游戏目录下的`NoteSkins/dance`
 
 ## 如何使用note
-在`选歌界面`双击/长按回车，找到`箭头样式`，然后选到后按`左右方向键`选择。
+在`选歌界面`双击/长按回车，找到`箭头样式`，然后选到后按`左或者右方向键`选择。
 
 ## 注意事项
 1. 由于`etterna`从`0.57`开始移除了`cmd function`，所以皮肤需要修复，群共享有白点修复脚本，如果需要请在群共享搜索`"白点"`关键词下载，或者到[etterna online noteskins](https://etternaonline.com/noteskins)下载皮肤，都是修复好的。

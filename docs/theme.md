@@ -12,7 +12,9 @@
 
 注意事项: 这些主题现在都在开发中，功能都不太完善，如果用着不习惯请用回`til death`。
 
-1. (强烈推荐)[spawncamping-wallhack](https://github.com/poco0317/spawncamping-wallhack)，这个主题也叫SCWH，很炫酷，相信你一定会喜欢，目前应该只能在0.65之后的版本运行。下面是预览图:
+(截止2020/02/19，只有SCWH在维护，不推荐其他的主题)
+
+1. (强烈推荐)[spawncamping-wallhack](https://github.com/poco0317/spawncamping-wallhack)，这个主题也叫SCWH，很炫酷，相信你一定会喜欢，目前应该只能在0.65之后的版本运行(在release页下载与游戏版本对应的主题)。下面是预览图:
 <img :src="$withBase('/zhs/scwh1.png')" alt="scwh1">
 <img :src="$withBase('/zhs/scwh2.png')" alt="scwh2">
 <img :src="$withBase('/zhs/scwh3.png')" alt="scwh3">
@@ -24,6 +26,5 @@
 <img :src="$withBase('/zhs/spl3.png')" alt="spl3">
 <img :src="$withBase('/zhs/spl4.png')" alt="spl4">
 <img :src="$withBase('/zhs/spl5.png')" alt="spl5">
-3. [Zenith](https://github.com/RyanGarsee/Zenith)由于该主题还没有支持0.65以后的版本(0.64可以用，听说这个主题下一个版本开始支持),所以就没有截图，相关图片可以在[这里](https://forums.etternaonline.com/t/zenith-created-by-midiman-and-ssc-port-by-ryangarsee/241)查看。
+3. Zenith主题链接已挂，可能不维护了。
 4. [Staiainv13](https://github.com/11brendon/Staiainv13),挪威老以前用过的主题，可以在挪威老一些远古视频看到，目前该主题只支持0.62.1，往后的应该还没支持，点击上面的链接可以进去看到预览图。
-5. 还有一些可能漏了的主题，等待后期补充。

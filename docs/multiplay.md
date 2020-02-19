@@ -7,7 +7,7 @@
 ## 使用指南
 
 1. 在游戏主界面，用鼠标点击多人游戏或者键盘移动到多人游戏按下回车
-2. 会看到一个界面，有连接跟分数版两个选项，当光标选中连接的时候，按下回车，会让你输入一个ip，此时输入 `multi.etternaonline.com` ,按下回车，等待连接。连接成功后，会让你选个人账号，此时直接回车即可。
+2. 会看到一个界面，有连接跟分数版两个选项，当光标选中连接的时候，按下回车，会让你输入一个ip，此时输入 `multi.etternaonline.com` ,按下回车，等待连接。连接成功后，会让你选个人账号，此时直接回车即可。(目前新版本已经不需要这一步了)
 <img :src="$withBase('/zhs/connect.png')" alt="connect">
 <img :src="$withBase('/zhs/multiinput.png')" alt="multiinput">
 3. 输入在etterna online的密码，按下回车即可进入mp界面。
