@@ -2,6 +2,8 @@
 
 目前最新 etterna 版本是 0.68.1(截至 2020/02/20)。由于在此版本之前的版本 bug 相对比较多，包括卡顿、crash 发生的情况比较多，现已不推荐下载安装，建议尽快升级到新版本(目前 0.67+的版本已有大量中文翻译)。
 
+[[toc]]
+
 ## 游戏下载途径
 
 1. (推荐) [etterna github 仓库](https://github.com/etternagame/etterna/releases)

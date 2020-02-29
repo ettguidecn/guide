@@ -1,5 +1,7 @@
 # noteskin 相关
 
+[[toc]]
+
 ## 下载
 
 在`stepmania online群 群共享`搜索对应资源，或者在`etterna online`上下载[noteskins](https://etternaonline.com/noteskins)

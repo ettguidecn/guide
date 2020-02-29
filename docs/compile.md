@@ -2,6 +2,8 @@
 
 注：本教程只介绍新版 etterna 的编译方式以及 windows10 64 位环境的编译(试过 32 位系统好像无法编译成功，其他系统也没有尝试过)，其他环境请参考[Building](https://github.com/etternagame/etterna/blob/master/Docs/Building.md)。
 
+[[toc]]
+
 ## 工具准备
 
 首先需要下载以下的工具:

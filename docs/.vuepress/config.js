@@ -64,6 +64,7 @@ const chsRouter = [
   '/basicoperations',
   '/settings',
   '/noteskin',
+  '/faq',
   '/ratechange',
   '/judgeswitch',
   '/multiplay',
@@ -99,13 +100,13 @@ module.exports = {
   },
   locales: {
     '/': {
-      lang: 'zh-hans',
+      lang: 'zh-CN',
       title: 'etterna教程',
       description: '',
       
     },
     '/zh-hant/': {
-      lang: 'zh-hant',
+      lang: 'zh-HK',
       title: 'etterna教程',
       description: ''
     }
