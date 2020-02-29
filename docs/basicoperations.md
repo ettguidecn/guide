@@ -2,6 +2,8 @@
 
 Etterna 版本一个亮眼的地方就是其丰富的功能，下面简单介绍下在各个界面的快捷操作。
 
+[[toc]]
+
 ## 选歌界面（Select Music）
 
 <img :src="$withBase('/zhs/ScreenSelectMusic.png')" alt="Select Music">
