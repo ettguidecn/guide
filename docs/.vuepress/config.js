@@ -83,21 +83,6 @@ module.exports = {
   description: ' ',
   theme: 'reco',
   base: '/guide/',
-  plugins: {
-    '@vuepress/pwa': {
-      serviceWorker: true,
-      updatePopup: {
-        '/': {
-          message: "发现新内容可用",
-          buttonText: "刷新"
-        },
-        '/zh/': {
-          message: "發現新內容可用",
-          buttonText: "刷新"
-        }
-      }
-    }
-  },
   locales: {
     '/': {
       lang: 'zh-CN',
