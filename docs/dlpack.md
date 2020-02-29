@@ -5,7 +5,7 @@
 3. [(推荐)新群网盘(提取码 yym4)](https://pan.baidu.com/s/1nMdVZaCqXZw3cQxK1OrCGg)
 4. [(旧)群网盘](https://pan.baidu.com/s/1mh5PPCc)
 5. [ffr 论坛](http://www.flashflashrevolution.com/vbz/forumdisplay.php?f=21)
-6. 游戏内下载。由于存放曲包的服务器不使用 google cloud 了，现在国内也能下载，使用此功能建议用 0.68+的版本
+6. 游戏内下载。由于存放曲包的服务器不使用 google driver 了，现在国内也能下载，使用此功能建议用 0.68.1+的版本
 
 ## 歌曲包存放位置以及注意事项(包括 osu 歌曲)
 
