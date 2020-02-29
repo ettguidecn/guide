@@ -4,7 +4,7 @@
 
 温馨提示: 条件不允许科学上网的情况下，可以使用[谷歌访问助手](https://github.com/haotian-wang/google-access-helper)来解决这个问题。
 
-# 注册 EO 账号
+## 注册 EO 账号
 
 首先，你需要进入到上文提到的[Etterna Online](https://etternaonline.com/)官网。
 <img :src="$withBase('/zhs/reg1.png')" alt="reg1">
@@ -16,7 +16,7 @@
 
 注意:注册这一步需要科学上网，不然会提示`你看起来像个机器人`。至于为什么需要科学上网，因为注册这一项需要谷歌验证，而大陆网络不能直接访问谷歌验证，所以需要科学上网，没有条件科学上网的可以使用[谷歌访问助手](https://github.com/haotian-wang/google-access-helper)。
 
-# 登录
+## 登录
 
 跟上文一样进入 EO 官网，点开`LOGIN`，输入账号密码即可以登录。然后在游戏内，选歌界面最下方点击 click to login，然后输入账号，按回车，输入密码，按回车即可完成登录。
 <img :src="$withBase('/zhs/log1.png')" alt="log1">
